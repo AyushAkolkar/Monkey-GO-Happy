@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title>Virtual Pet-1</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+      <script src="p5.play.js"></script>
+
+      
+      <!--Your web app's Firebase configuration
+         Add here
+        Initialize Firebase-->
+        <script>
+        // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDAxTZbht8hzxLxsDMZ-B1oERhf-PqaLLw",
+  authDomain: "trex-dac44.firebaseapp.com",
+  databaseURL: "https://trex-dac44-default-rtdb.firebaseio.com",
+  projectId: "trex-dac44",
+  storageBucket: "trex-dac44.appspot.com",
+  messagingSenderId: "895637890322",
+  appId: "1:895637890322:web:18bf9de97b5b9b309a7fcb"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+</script>
+<script src="js/player.js"></script>
+<script src="js/form.js"></script>
+<script src="js/game.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<script src="sketch.js"></script>
+</body>
+</html>
